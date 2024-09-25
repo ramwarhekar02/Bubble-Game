@@ -61,8 +61,7 @@ html,body {
     }
 
     .nav h5 {
-        justify-content: space-evenly;
-        font-size: 5vw;
+        font-size: 20px;
     }
 
     .nav #hit #score #timerval { 
