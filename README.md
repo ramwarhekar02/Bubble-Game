@@ -1,7 +1,3 @@
-Here's a sample `README.md` file for your GitHub project:
-
----
-
 # Bubble Hit Game
 
 Welcome to **Bubble Hit Game**, a fun and interactive game where you hit bubbles matching the target number within a time limit. Increase your score by hitting the correct bubbles before the timer runs out!
