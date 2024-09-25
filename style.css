@@ -55,7 +55,7 @@ html,body {
 
 @media (max-width: 600px) {
     .nav h5{ 
-        font-size: 5vw;
+        font-size: 20px;
     }
 
     .nav #hit #score #timerval { 
