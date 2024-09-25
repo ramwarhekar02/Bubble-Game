@@ -40,7 +40,6 @@ html,body {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    max-width: 80%;
     display: flex;
     width: 100%;
     text-align: center;
@@ -51,7 +50,20 @@ html,body {
     max-width: 80%;
     gap: 10px;
     display: flex;
-    font-size: 2vw;
+    font-size: 28px;
+}
+
+@media (max-width: 600px) {
+    .nav h5{ 
+        font-size: 5vw;
+    }
+
+    .nav #hit #score #timerval { 
+        font-size: 5vw;
+        width: 20px;
+        height: 20px;
+
+    }
 }
 
 .nav #hit {
