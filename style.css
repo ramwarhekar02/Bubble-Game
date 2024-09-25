@@ -55,7 +55,8 @@ html,body {
 
 @media (max-width: 600px) {
 
-    .nav h5 { 
+    .nav h5 {
+        gap: 5px;
         font-size: 5vw;
     }
 
