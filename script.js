@@ -24,7 +24,7 @@ function createHit() {
 }
 
 function runTimer() {
-    let stop = setInterval(() => {
+    const stop = setInterval(() => {
         if (timer > 0) { 
             timer--;
             document.querySelector("#timerval").textContent = timer;
@@ -37,7 +37,7 @@ function runTimer() {
 
 document.querySelector(".center")
 .addEventListener("click", function (dets) {
-    var getNum = Number(dets.target.textContent);
+    const getNum = Number(dets.target.textContent);
     if(getNum === hitting) { 
         increaseScore();
         makeBubble();

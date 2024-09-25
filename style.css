@@ -28,21 +28,86 @@ html,body {
 }
 
 .nav {
+    display: flex;
+    width: 100%;
+    background-color: green;
+    height: 90px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.nav .texts {
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    display: flex;
+    width: 100%;
     text-align: center;
     gap: 60px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    background: green;
-    height: 90px;
-    width: 100%;
 }
+
+@media (max-width: 600px) {
+    .page {
+        padding: 10px;
+        align-items: flex-start;
+    }
+
+    .container {
+        height: 90%;
+        width: 100%;
+    }
+
+    .nav {
+        display: flex;
+        height: auto;
+        padding: 10px;
+    }
+
+    .nav .texts {
+        gap: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .nav h5 {
+        font-size: 4vw;
+        gap: 5px;
+    }
+
+    .center {
+        flex-wrap: wrap;
+        padding: 10px;
+        gap: 5px;
+    }
+
+    .center #circle {
+        height: 30px;
+        width: 30px;
+        font-size: 14px;
+    }
+
+    .nav #hit, .nav #score, .nav #timerval {
+        font-size: 10px;
+        height: 20px;
+        width: 20px;
+    }
+
+    #pen {
+        height: 30px;
+        width: 30px;
+    }
+}
+
       
 .nav h5 {
+    max-width: 80%;
     gap: 10px;
     display: flex;
-    font-size: 30px;
+    font-size: 2vw;
 }
+
 .nav #hit {
     color: green;
     align-items: center;
