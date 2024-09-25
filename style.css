@@ -60,15 +60,18 @@ html,body {
         align-items: flex-start;
     }
 
+    .nav .texts {
+        gap: 20px;
+    }
+
     .nav h5 {
-        gap: -5px;
         font-size: 20px;
     }
 
     .nav #hit #score #timerval { 
         font-size: 5vw;
-        width: 20px;
-        height: 20px;
+        width: 15px;
+        height: 15px;
 
     }
 
